@@ -1,10 +1,11 @@
 {
-    "name": "emersoncflima/webrequest",
-    "description": "A PHP Library for Managing Web Requests",
+    "name": "emersoncflima/easy-route",
+    "description": "Easy route for web applications",
     "type": "library",
+    "version": "1.0.0-dev",
     "autoload": {
         "psr-4": {
-            "Ecfl\\WebRequest\\": "src/"
+            "EasyRoute\\": "src/"
         }
     },
     "authors": [

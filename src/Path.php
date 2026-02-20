@@ -1,9 +1,9 @@
 <?php
 
-namespace Ecfl\WebRequest;
+namespace EasyRoute;
 
 #[\Attribute(\Attribute::TARGET_METHOD | \Attribute::TARGET_FUNCTION | \Attribute::TARGET_CLASS)]
-class WebRequest {
+class Path {
 	private $path;
     private $methods;
 
