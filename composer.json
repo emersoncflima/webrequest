@@ -1,0 +1,20 @@
+{
+    "name": "emersoncflima/webrequest",
+    "description": "A PHP Library for Managing Web Requests",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ecfl\\WebRequest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emerson Lima",
+            "email": "emersoncflima@proton.me"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "nikic/fast-route": "^1.3",
+    }
+}
